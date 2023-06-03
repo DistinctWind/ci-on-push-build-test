@@ -1,0 +1,12 @@
+name: fix
+
+on: 
+    push:
+        branches:
+            - my-branch
+
+jobs:
+    simple_test:
+        name: test
+        runs-on: ubuntu-latest
+        
